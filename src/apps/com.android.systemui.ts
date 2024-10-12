@@ -1,7 +1,7 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: com.android.systemui',
+  id: 'com.android.systemui',
   name: '系统 UI',
   groups: [
     {
