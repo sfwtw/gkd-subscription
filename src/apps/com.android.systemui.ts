@@ -12,7 +12,8 @@ export default defineGkdApp({
       matchTime: 10000,
       rules: [
         {
-          matches: '[text="允许 USB 调试吗？"] <<2 LinearLayout +3 [id="android:id/buttonPanel"] >2 Button[text="允许"]',
+          matches:
+            '[text="允许 USB 调试吗？"] <<2 LinearLayout +3 [id="android:id/buttonPanel"] >2 Button[text="允许"]',
           snapshotUrls: 'https://i.gkd.li/i/15796616',
         },
       ],
